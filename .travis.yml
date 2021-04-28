@@ -7,3 +7,4 @@ before_install:
 
 script:
 - docker run dinkarinjosh/docker-react npm run test
+- q
