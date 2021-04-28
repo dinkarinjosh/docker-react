@@ -7,4 +7,4 @@ before_install:
 
 script:
 #- docker run dinkarinjosh/docker-react npm run testnowatch
-- docker run -e CI=true dinkarinjosh/docker-react npm run test
+- docker run dinkarinjosh/docker-react npm run test
